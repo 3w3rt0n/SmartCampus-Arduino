@@ -54,22 +54,22 @@ rmt_item32_t* dataDiminuir = (rmt_item32_t*) malloc(size);
 //LDR
 #define pinLDR 34
 
-const char* ssid = "@#$_=";
-const char* pass = "3w3rt0n!@#";
-const char* brokerUser = "3w3rt0n";
-const char* brokerPass = "2368d35b571e42f3b9765c0dceb1bee9";
+const char* ssid = "";
+const char* pass = "";
+const char* brokerUser = "";
+const char* brokerPass = "";
 const char* broker = "io.adafruit.com";
 const int brokerPort = 1883;
 
-const char* topicTemp = "3w3rt0n/feeds/temp";
-const char* topicTempAr = "3w3rt0n/feeds/tempAr";
-const char* topicHum = "3w3rt0n/feeds/hum";
-const char* topicLum = "3w3rt0n/feeds/lum";
-const char* topicSom = "3w3rt0n/feeds/som";
+const char* topicTemp = "/feeds/temp";
+const char* topicTempAr = "/feeds/tempAr";
+const char* topicHum = "/feeds/hum";
+const char* topicLum = "/feeds/lum";
+const char* topicSom = "/feeds/som";
 
-const char* topicLigar = "3w3rt0n/feeds/ligar";
-const char* topicAumentar = "3w3rt0n/feeds/aumentar";
-const char* topicDiminuir = "3w3rt0n/feeds/diminuir";
+const char* topicLigar = "/feeds/ligar";
+const char* topicAumentar = "/feeds/aumentar";
+const char* topicDiminuir = "/feeds/diminuir";
 
 DHT dht(pinDHT, typeDHT);
 
